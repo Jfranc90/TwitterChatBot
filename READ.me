@@ -1,0 +1,9 @@
+The notebook can be ran solo via jupyter lab or notebook
+
+In order to run the TwitterBot, it must be run via the command line with the folowing argumemts
+
+python TwitterBotV2.py --max_vocab_size 50000 --max_seq_len 30 --embedding_dim 100 --hidden_state_dim 100  
+--data_path path/test.csv --outpath path --dropout 0.3 --mode inference --version v1 --load_model_from /path/s2s_model_v1_.h5  
+--vocabulary_path /path/vocabulary.pkl --reverse_vocabulary_path /path/reverse_vocabulary.pkl --count_vectorizer_path /path/count_vectorizer.pkl
+
+where path is the directory of the project, along with the necessary files.
